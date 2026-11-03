@@ -1,1 +1,2 @@
-curl -s https://github.com | jq ".parent.full_name"
+curl -s https://api.github.com/repos/lancherosjoe16-cyber/expressBookReviews | jq -r ".parent.full_name"
+ibm-developer-skills-network/expressBookReviews
